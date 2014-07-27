@@ -63,6 +63,7 @@ class AppKernel extends Kernel
             new \Elcodi\CurrencyBundle\ElcodiCurrencyBundle(),
             new \Elcodi\UserBundle\ElcodiUserBundle(),
             new \Elcodi\ProductBundle\ElcodiProductBundle(),
+            new \Elcodi\AttributeBundle\ElcodiAttributeBundle(),
             new \Elcodi\MediaBundle\ElcodiMediaBundle(),
             new \Elcodi\GeoBundle\ElcodiGeoBundle(),
 
