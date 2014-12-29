@@ -1,0 +1,13 @@
+elcodi_sitemap:
+    blocks:
+        product:
+            transformer: store.product.transformer.product_sitemap
+            repository_service: elcodi.repository.product
+            method: findBy
+            arguments:
+                enabled: true
+    profiles:
+        main:
+            path: %kernel.root_dir%/../web/sitemap.xml
+            blocks:
+                - product

@@ -1,6 +1,7 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
+    - { resource: sitemap.yml }
     - { resource: @ElcodiBambooBundle/Resources/config/translations.yml }
     - { resource: @ElcodiBambooBundle/Resources/config/mapping.yml }
     - { resource: @ElcodiBambooBundle/Resources/config/filesystem.yml }

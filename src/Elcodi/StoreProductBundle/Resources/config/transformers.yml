@@ -1,0 +1,9 @@
+services:
+
+    #
+    # sitemap transformers
+    #
+    store.product.transformer.product_sitemap:
+        class: %store.product.transformer.product_sitemap%
+        arguments:
+            router: @router

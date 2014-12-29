@@ -79,6 +79,7 @@ class StoreAppKernel extends Kernel
             new \Elcodi\Bundle\StateTransitionMachineBundle\ElcodiStateTransitionMachineBundle(),
             new \Elcodi\Bundle\ConfigurationBundle\ElcodiConfigurationBundle(),
             new \Elcodi\Bundle\PageBundle\ElcodiPageBundle(),
+            new \Elcodi\Bundle\SitemapBundle\ElcodiSitemapBundle(),
 
             /**
              * Elcodi store bundles

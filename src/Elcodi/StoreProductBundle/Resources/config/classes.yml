@@ -4,3 +4,8 @@ parameters:
     # services
     #
     store.product.service.product_collection_provider.class: Elcodi\StoreProductBundle\Services\ProductCollectionProvider
+
+    #
+    # sitemap transformers
+    #
+    store.product.transformer.product_sitemap: Elcodi\StoreProductBundle\Transformer\SitemapProductTransformer
