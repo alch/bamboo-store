@@ -83,15 +83,15 @@ class StoreAppKernel extends Kernel
             /**
              * Elcodi store bundles
              */
-            new \Elcodi\StoreCoreBundle\StoreCoreBundle(),
-            new \Elcodi\StoreProductBundle\StoreProductBundle(),
-            new \Elcodi\StoreUserBundle\StoreUserBundle(),
-            new \Elcodi\StoreGeoBundle\StoreGeoBundle(),
-            new \Elcodi\StoreCartBundle\StoreCartBundle(),
-            new \Elcodi\StoreCurrencyBundle\StoreCurrencyBundle,
-            new \Elcodi\StoreCartCouponBundle\StoreCartCouponBundle,
-            new \Elcodi\StoreConnectBundle\StoreConnectBundle(),
-            new \Elcodi\PaymentBridgeBundle\PaymentBridgeBundle(),
+            new \Elcodi\Store\CoreBundle\StoreCoreBundle(),
+            new \Elcodi\Store\ProductBundle\StoreProductBundle(),
+            new \Elcodi\Store\UserBundle\StoreUserBundle(),
+            new \Elcodi\Store\GeoBundle\StoreGeoBundle(),
+            new \Elcodi\Store\CartBundle\StoreCartBundle(),
+            new \Elcodi\Store\CurrencyBundle\StoreCurrencyBundle,
+            new \Elcodi\Store\CartCouponBundle\StoreCartCouponBundle,
+            new \Elcodi\Store\ConnectBundle\StoreConnectBundle(),
+            new \Elcodi\Store\PaymentBridgeBundle\PaymentBridgeBundle(),
 
             /**
              * Elcodi Templates
