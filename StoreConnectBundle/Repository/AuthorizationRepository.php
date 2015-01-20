@@ -14,7 +14,7 @@
  * @author Aldo Chiecchia <zimage@tiscali.it>
  */
 
-namespace Elcodi\StoreConnectBundle\Repository;
+namespace Elcodi\Store\StoreConnectBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
 

@@ -14,7 +14,7 @@
  * @author Aldo Chiecchia <zimage@tiscali.it>
  */
 
-namespace Elcodi\StoreProductBundle\Services;
+namespace Elcodi\Store\StoreProductBundle\Services;
 
 use Doctrine\Common\Collections\ArrayCollection;
 

@@ -83,20 +83,20 @@ class StoreAppKernel extends Kernel
             /**
              * Elcodi store bundles
              */
-            new \Elcodi\StoreCoreBundle\StoreCoreBundle(),
-            new \Elcodi\StoreProductBundle\StoreProductBundle(),
-            new \Elcodi\StoreUserBundle\StoreUserBundle(),
-            new \Elcodi\StoreGeoBundle\StoreGeoBundle(),
-            new \Elcodi\StoreCartBundle\StoreCartBundle(),
-            new \Elcodi\StoreCurrencyBundle\StoreCurrencyBundle,
-            new \Elcodi\StoreCartCouponBundle\StoreCartCouponBundle,
-            new \Elcodi\StoreConnectBundle\StoreConnectBundle(),
+            new \Elcodi\Store\StoreCoreBundle\StoreCoreBundle(),
+            new \Elcodi\Store\StoreProductBundle\StoreProductBundle(),
+            new \Elcodi\Store\StoreUserBundle\StoreUserBundle(),
+            new \Elcodi\Store\StoreGeoBundle\StoreGeoBundle(),
+            new \Elcodi\Store\StoreCartBundle\StoreCartBundle(),
+            new \Elcodi\Store\StoreCurrencyBundle\StoreCurrencyBundle,
+            new \Elcodi\Store\StoreCartCouponBundle\StoreCartCouponBundle,
+            new \Elcodi\Store\StoreConnectBundle\StoreConnectBundle(),
             new \Elcodi\PaymentBridgeBundle\PaymentBridgeBundle(),
 
             /**
              * Elcodi Templates
              */
-            new \Elcodi\StoreTemplateBundle\StoreTemplateBundle(),
+            new \Elcodi\Store\StoreTemplateBundle\StoreTemplateBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

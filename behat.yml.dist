@@ -15,6 +15,6 @@ default:
         homepage:
             contexts:
                 - Behat\MinkExtension\Context\MinkContext
-                - Elcodi\StoreCoreBundle\Behat\DoctrineContext
-                - Elcodi\StoreCoreBundle\Behat\Context
-                - Elcodi\StoreProductBundle\Behat\Context
+                - Elcodi\Store\StoreCoreBundle\Behat\DoctrineContext
+                - Elcodi\Store\StoreCoreBundle\Behat\Context
+                - Elcodi\Store\StoreProductBundle\Behat\Context

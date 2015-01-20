@@ -14,9 +14,9 @@
  * @author Aldo Chiecchia <zimage@tiscali.it>
  */
 
-namespace Elcodi\StoreCoreBundle\Behat;
+namespace Elcodi\Store\StoreCoreBundle\Behat;
 
-use Elcodi\StoreCoreBundle\Behat\abstracts\AbstractElcodiContext;
+use Elcodi\Store\StoreCoreBundle\Behat\abstracts\AbstractElcodiContext;
 
 /**
  * Class Context

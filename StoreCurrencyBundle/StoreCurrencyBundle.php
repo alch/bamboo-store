@@ -14,7 +14,7 @@
  * @author Aldo Chiecchia <zimage@tiscali.it>
  */
 
-namespace Elcodi\StoreCurrencyBundle;
+namespace Elcodi\Store\StoreCurrencyBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

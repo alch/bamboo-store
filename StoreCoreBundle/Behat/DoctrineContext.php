@@ -14,13 +14,13 @@
  * @author Aldo Chiecchia <zimage@tiscali.it>
  */
 
-namespace Elcodi\StoreCoreBundle\Behat;
+namespace Elcodi\Store\StoreCoreBundle\Behat;
 
 use Behat\Behat\Hook\Scope\AfterScenarioScope;
 use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Symfony\Component\Console\Input\ArrayInput;
 
-use Elcodi\StoreCoreBundle\Behat\abstracts\AbstractElcodiContext;
+use Elcodi\Store\StoreCoreBundle\Behat\abstracts\AbstractElcodiContext;
 
 /**
  * Class DoctrineContext
